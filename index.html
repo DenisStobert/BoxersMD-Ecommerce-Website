@@ -1,0 +1,245 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <title>Boxeri MD</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <nav id="nav">
+        <div class="navTop">
+            <div class="navItem">
+                <img src="img/logo.png" alt=""><a href="#home"><h1>boxeri<span class="dot">.</span><span class="md">MD</span></h1></a>
+            </div>
+            <div class="navbar">
+                <a href="#home" class="navLink active">Home</a>
+                <a href="#product" class="navLink">Products</a>
+                <a href="#sale" class="navLink">Sale</a>
+                <a href="#contact" class="navLink">Contact</a>
+            </div>
+            <div class="navItem">
+                <a href="#sale" class="limitedOffer"><span>Ofertă limitată!</span></a>
+            </div>
+        </div>
+        <div class="navBottom">
+            <h3 class="menuItem">CALVIN KLEIN</h3>
+            <h3 class="menuItem">TOMMY HILFIGER</h3>
+            <h3 class="menuItem">LACOSTE</h3>
+        </div>
+    </nav>
+    <div class="slider section" id="home">
+        <div class="sliderWrapper">
+            <div class="sliderItem">
+                <img src="./img/calvin-klein1.png" alt="" class="sliderImg">
+                <div class="sliderBg"></div>
+                <h1 class="sliderTitle">AIR FORCE</br> NEW</br> SEASON</h1>
+                <h2 class="sliderPrice" >2000 MDL</h2>
+                <a href="#product">
+                    <button class="buyButton">BUY NOW!</button>
+                </a>
+            </div>
+            <div class="sliderItem">
+                <img src="./img/tommy1.png" alt="" class="sliderImg">
+                <div class="sliderBg"></div>
+                <h1 class="sliderTitle">AIR JORDAN</br> NEW</br> SEASON</h1>
+                <h2 class="sliderPrice">$149</h2>
+                <a href="#product">
+                    <button class="buyButton">BUY NOW!</button>
+                </a>
+            </div>
+            <div class="sliderItem">
+                <img src="./img/lacoste1.png" alt="" class="sliderImg">
+                <div class="sliderBg"></div>
+                <h1 class="sliderTitle">BLAZER</br> NEW</br> SEASON</h1>
+                <h2 class="sliderPrice">$109</h2>
+                <a href="#product">
+                    <button class="buyButton">BUY NOW!</button>
+                </a>
+            </div>
+        </div>
+    </div>
+   
+    <div class="features">
+        <div class="feature">
+            <img src="./img/shipping.png" alt="" class="featureIcon">
+            <span class="featureTitle">LIVRARE GRATUITĂ</span>
+            <span class="featureDesc">Livrare gratuită în Chișinău pentru toate comenzile.</span>
+        </div>
+        <div class="feature">
+            <img class="featureIcon" src="./img/return.png" alt="">
+            <span class="featureTitle">30 ZILE RETURNARE</span>
+            <span class="featureDesc">Retur fără întrebări și rambursare ușoară în 14 zile.</span>
+        </div>
+        <div class="feature">
+            <img class="featureIcon" src="./img/gift.png" alt="">
+            <span class="featureTitle">CARDURI CADOU</span>
+            <span class="featureDesc">Cumpărați carduri cadou și utilizați cu ușurință codurile de cupon.</span>
+        </div>
+        <div class="feature">
+            <img class="featureIcon" src="./img/contact.png" alt="">
+            <span class="featureTitle">CONTACTAȚINE!</span>
+            <span class="featureDesc">Păstrați legătura prin e-mail și prin sistemul de asistență.</span>
+        </div>
+    </div>
+
+    <div class="product section" id="product">
+        <img src="./img/calvin-klein1red.png" alt="" class="productImg">
+        <div class="productDetails">
+            <h1 class="productTitle">CALVIN KLEIN</h1>
+            <h2 class="productPrice">MDL 2000</h2>
+            <p class="productDesc">Lorem ipsum dolor sit amet consectetur impal adipisicing elit. Alias assumenda
+                dolorum
+                doloremque sapiente aliquid aperiam.</p>
+            <div class="colors">
+                <div class="color"></div>
+                <div class="color"></div>
+            </div>
+            <div class="sizes">
+                <div class="size">42</div>
+                <div class="size">43</div>
+                <div class="size">44</div>
+            </div>
+            <button class="productButton">BUY NOW!</button>
+        </div>
+        <div class="productList">
+            <a href="#calvinKlein" class="productThumbnail" data-product-id="1">
+                <img src="./img/calvin-klein1red.png" alt="Calvin Klein" class="thumbnailImg">
+            </a>
+            <a href="#tommyHilfiger" class="productThumbnail" data-product-id="2">
+                <img src="./img/tommy1red.png" alt="Tommy Hilfiger" class="thumbnailImg">
+            </a>
+            <a href="#lacoste" class="productThumbnail" data-product-id="3">
+                <img src="./img/lacoste1red.png" alt="Lacoste" class="thumbnailImg">
+            </a>
+        </div>
+        <div class="payment">
+            <h1 class="payTitle">Personal Information</h1>
+            <label>Name and Surname</label>
+            <input type="text" placeholder="John Doe" class="payInput">
+            <label>Phone Number</label>
+            <input type="text" placeholder="+1 234 5678" class="payInput">
+            <label>Address</label>
+            <input type="text" placeholder="Elton St 21 22-145" class="payInput">
+            <h1 class="payTitle">Card Information</h1>
+            <div class="cardIcons">
+                <img src="./img/visa.png" width="40" alt="" class="cardIcon">
+                <img src="./img/master.png" alt="" width="40" class="cardIcon">
+            </div>
+            <input type="password" class="payInput" placeholder="Card Number">
+            <div class="cardInfo">
+                <input type="text" placeholder="mm" class="payInput sm">
+                <input type="text" placeholder="yyyy" class="payInput sm">
+                <input type="text" placeholder="cvv" class="payInput sm">
+            </div>
+            <button class="payButton">Checkout!</button>
+            <span class="close">X</span>
+        </div>
+    </div>
+    <div class="gallery section" id="sale">
+        <div class="galleryItem">
+            <h1 class="galleryTitle">Lorem ipsum dolor sit amet.</h1>
+            <div class="imageContainer" data-hover-text="Custom Text Here">
+                <img src="/img/image1.png" alt="" class="galleryImg">
+            </div>
+        </div>
+        <div class="galleryItem">
+            <div class="imageContainer" data-hover-text="Custom Text Here">
+                <img src="/img/image2.jpg" alt="" class="galleryImg">
+            </div>
+            <h1 class="galleryTitle">Lorem ipsum dolor sit amet.</h1>
+        </div>
+        <div class="galleryItem">
+            <h1 class="galleryTitle">Lorem ipsum dolor sit amet.</h1>
+            <div class="imageContainer" data-hover-text="Custom Text Here">
+                <img src="/img/image3.jpg" alt="" class="galleryImg">
+            </div>
+        </div>
+    </div>
+    <div class="newSeason">
+        <div class="nsItem">
+            <img src="img/image4.png"
+                alt="" class="nsImg">
+        </div>
+        <div class="nsItem">
+            <h3 class="nsTitleSm">NOI SOSIRI DE PRIMĂVARĂ</h3>
+            <h1 class="nsTitle">Sezon Nou -</h1>
+            <h1 class="nsTitle">Colecție Nouă</h1>
+            <a href="#nav">
+                <button class="nsButton">ALEGEȚI STILUL</button>
+            </a>
+        </div>
+        <div class="nsItem">
+            <img src="/img/image5.jpg.png"
+                alt="" class="nsImg">
+        </div>
+    </div>
+    <footer>
+        <div class="footerLeft">
+            <div class="footerMenu">
+                <h1 class="fMenuTitle">About Us</h1>
+                <ul class="fList">
+                    <li class="fListItem">Company</li>
+                    <li class="fListItem">Contact</li>
+                    <li class="fListItem">Careers</li>
+                    <li class="fListItem">Affiliates</li>
+                    <li class="fListItem">Stores</li>
+                </ul>
+            </div>
+            <div class="footerMenu">
+                <h1 class="fMenuTitle">Useful Links</h1>
+                <ul class="fList">
+                    <li class="fListItem">Support</li>
+                    <li class="fListItem">Refund</li>
+                    <li class="fListItem">FAQ</li>
+                    <li class="fListItem">Feedback</li>
+                    <li class="fListItem">Stories</li>
+                </ul>
+            </div>
+            <div class="footerMenu">
+                <h1 class="fMenuTitle">Products</h1>
+                <ul class="fList">
+                    <li class="fListItem">Calvin Klein</li>
+                    <li class="fListItem">Tommy Hilfiger</li>
+                    <li class="fListItem">Lacoste</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footerRight">
+            <div class="footerRightMenu">
+                <h1 class="fMenuTitle">Subscribe to our newsletter</h1>
+                <div class="fMail">
+                    <input type="text" placeholder="your@email.com" class="fInput">
+                    <button class="fButton">Join!</button>
+                </div>
+            </div>
+            <div class="footerRightMenu">
+                <h1 class="fMenuTitle">Follow Us</h1>
+                <div class="fIcons">
+                    <i class="fIcon fa-brands fa-facebook"></i>
+                    <i class="fIcon fa-brands fa-twitter"></i>
+                    <i class="fIcon fa-brands fa-instagram"></i>
+                    <i class="fIcon fa-brands fa-whatsapp"></i>
+                </div>
+            </div>
+            <div class="footerRightMenu">
+                <span class="copyright">@<span class="footer-text">Denis Stobert</span>. All rights reserved. 2024.</span>
+            </div>
+        </div>
+    </footer>
+    <script src="./app.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
